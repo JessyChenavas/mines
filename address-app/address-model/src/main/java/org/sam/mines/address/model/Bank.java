@@ -5,6 +5,7 @@ import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.UUID;
 
 @Entity
 public class Bank {
@@ -13,7 +14,7 @@ public class Bank {
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @Column(unique = true, nullable = false)
     @Type(type = "pg-uuid")
-    private String uuid;
+    private UUID uuid;
 
     private String code;
 
@@ -21,11 +22,21 @@ public class Bank {
 
     private String address;
 
-    public String getUuid() {
+    public Bank(){
+    }
+
+    public Bank(UUID uuid, String code, String name, String address) {
+        setUuid(uuid);
+        setCode(code);
+        setName(name);
+        setAddress(address);
+    }
+
+    public UUID getUuid() {
         return uuid;
     }
 
-    public void setUuid(String uuid) {
+    public void setUuid(UUID uuid) {
         this.uuid = uuid;
     }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.sam.mines.address.service.impl.TownServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-09T13:08:18" hostname="DESKTOP-R8R5GML" time="1.139">
+<testsuite name="org.sam.mines.address.service.impl.TownServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-10T15:11:39" hostname="Predator-Budgie" time="0.068">
   <properties/>
-  <testcase name="shouldGetAll()" classname="org.sam.mines.address.service.impl.TownServiceImplTest" time="1.139"/>
+  <testcase name="shouldGetAll()" classname="org.sam.mines.address.service.impl.TownServiceImplTest" time="0.068"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

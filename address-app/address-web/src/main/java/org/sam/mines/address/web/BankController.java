@@ -3,13 +3,14 @@ package org.sam.mines.address.web;
 import org.sam.mines.address.model.Bank;
 import org.sam.mines.address.service.BankService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@RestController
+@Controller
 @RequestMapping("bank")
 public class BankController {
 

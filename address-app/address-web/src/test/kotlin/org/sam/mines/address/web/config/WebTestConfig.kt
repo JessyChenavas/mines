@@ -1,5 +1,6 @@
 package org.sam.mines.address.web.config
 
+import org.sam.mines.address.persistence.BankRepository
 import org.sam.mines.address.persistence.TownRepository
 import org.sam.mines.address.service.TownService
 import org.springframework.boot.test.context.SpringBootTest
@@ -14,4 +15,6 @@ class WebTestConfig {
 
     @MockBean
     private lateinit var townRepository: TownRepository
+    @MockBean
+    private lateinit var bankRepository: BankRepository
 }
