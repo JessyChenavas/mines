@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TownRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TownRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.sam.mines.address.persistence.html">org.sam.mines.address.persistence</a> &gt; TownRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.470s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldFindAll()</td>
+<td class="success">0.470s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:08:07.142 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:08:07.186 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:08:07.265 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.sam.mines.address.persistence.TownRepositoryTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+14:08:07.330 [Test worker] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@1dae9362 declaringClass = 'org.sam.mines.address.persistence.TownRepositoryTest', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:08:07.417 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.sam.mines.address.persistence.TownRepositoryTest]
+14:08:07.434 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7405b9c4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2d586d84, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6922ef3]
+14:08:07.446 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@88848ee testClass = TownRepositoryTest, testInstance = org.sam.mines.address.persistence.TownRepositoryTest@93f362c, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+14:08:07.447 [Test worker] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+14:08:07.447 [Test worker] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+14:08:07.563 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles []
+14:08:07.563 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoader - Registering component classes: {class org.sam.mines.address.persistence.config.PersistenceTestConfig}
+14:08:07.655 [Test worker] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@3713c23b
+14:08:07.688 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:08:07.873 [Test worker] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:08:07.899 [Test worker] DEBUG org.springframework.data.repository.config.RepositoryConfigurationDelegate - Scanning for JPA repositories in packages org.sam.mines.address.persistence.
+14:08:07.949 [Test worker] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: file [C:\Users\jessy\Desktop\sampleApp\address-app\address-persistence\build\classes\kotlin\main\org\sam\mines\address\persistence\TownRepository.class]
+14:08:08.029 [Test worker] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129ms. Found 1 JPA repository interfaces.
+14:08:09.262 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'placeHolderConfigurer'
+14:08:09.267 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.sam.mines.address.persistence.config.PersistenceTestConfig$Companion'
+14:08:09.274 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+14:08:09.294 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+14:08:09.304 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:08:09.308 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:08:09.309 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+14:08:09.312 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:08:09.316 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:08:09.325 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:08:09.326 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+14:08:09.327 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+14:08:09.418 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+14:08:09.419 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceTestConfig'
+14:08:09.427 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+14:08:09.428 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+14:08:09.459 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+14:08:09.467 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+14:08:09.468 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+14:08:09.489 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+14:08:09.489 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+14:08:09.538 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+14:08:09.728 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+14:08:09.772 [Test worker] DEBUG org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:08:09.814 [Test worker] DEBUG org.hibernate.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@49476842
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.apache.commons.dbcp2.BasicDataSource@5e18513
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/jessy/Desktop/sampleApp/address-app/address-model/build/libs/address-model.jar
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		org.sam.mines.address.model.Address
+		org.sam.mines.address.model.Target
+		org.sam.mines.address.model.Town]
+	Mapping files names []
+	Properties []
+14:08:09.838 [Test worker] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+14:08:09.841 [Test worker] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+14:08:09.850 [Test worker] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+14:08:09.961 [Test worker] INFO org.hibernate.Version - HHH000412: Hibernate Core {5.4.11.Final}
+14:08:09.963 [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:08:10.217 [Test worker] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+14:08:10.246 [Test worker] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+14:08:10.248 [Test worker] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+14:08:10.279 [Test worker] INFO org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+14:08:10.329 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@7d021eed
+14:08:10.329 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@7d021eed
+14:08:10.329 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -&gt; org.hibernate.type.BooleanType@7d021eed
+14:08:10.330 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -&gt; org.hibernate.type.NumericBooleanType@d60fd23
+14:08:10.331 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -&gt; org.hibernate.type.TrueFalseType@3cdee25d
+14:08:10.333 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -&gt; org.hibernate.type.YesNoType@7f295561
+14:08:10.334 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -&gt; org.hibernate.type.ByteType@654a010
+14:08:10.335 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -&gt; org.hibernate.type.ByteType@654a010
+14:08:10.335 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -&gt; org.hibernate.type.ByteType@654a010
+14:08:10.336 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -&gt; org.hibernate.type.CharacterType@58ed8e39
+14:08:10.337 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -&gt; org.hibernate.type.CharacterType@58ed8e39
+14:08:10.337 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -&gt; org.hibernate.type.CharacterType@58ed8e39
+14:08:10.339 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -&gt; org.hibernate.type.ShortType@70d6b1b1
+14:08:10.339 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -&gt; org.hibernate.type.ShortType@70d6b1b1
+14:08:10.339 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -&gt; org.hibernate.type.ShortType@70d6b1b1
+14:08:10.341 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -&gt; org.hibernate.type.IntegerType@1d54e5eb
+14:08:10.341 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -&gt; org.hibernate.type.IntegerType@1d54e5eb
+14:08:10.341 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -&gt; org.hibernate.type.IntegerType@1d54e5eb
+14:08:10.343 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -&gt; org.hibernate.type.LongType@dbab622
+14:08:10.343 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -&gt; org.hibernate.type.LongType@dbab622
+14:08:10.343 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -&gt; org.hibernate.type.LongType@dbab622
+14:08:10.345 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -&gt; org.hibernate.type.FloatType@7aec2ec7
+14:08:10.345 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -&gt; org.hibernate.type.FloatType@7aec2ec7
+14:08:10.345 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -&gt; org.hibernate.type.FloatType@7aec2ec7
+14:08:10.347 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -&gt; org.hibernate.type.DoubleType@61ace51f
+14:08:10.347 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -&gt; org.hibernate.type.DoubleType@61ace51f
+14:08:10.347 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -&gt; org.hibernate.type.DoubleType@61ace51f
+14:08:10.350 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -&gt; org.hibernate.type.BigDecimalType@382eb51c
+14:08:10.351 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -&gt; org.hibernate.type.BigDecimalType@382eb51c
+14:08:10.352 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -&gt; org.hibernate.type.BigIntegerType@32d8389b
+14:08:10.353 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -&gt; org.hibernate.type.BigIntegerType@32d8389b
+14:08:10.354 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -&gt; org.hibernate.type.StringType@1b242083
+14:08:10.355 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -&gt; org.hibernate.type.StringType@1b242083
+14:08:10.356 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -&gt; org.hibernate.type.StringNVarcharType@518795db
+14:08:10.357 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -&gt; org.hibernate.type.CharacterNCharType@274f0374
+14:08:10.358 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -&gt; org.hibernate.type.UrlType@75ded130
+14:08:10.358 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -&gt; org.hibernate.type.UrlType@75ded130
+14:08:10.360 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -&gt; org.hibernate.type.DurationType@24189efb
+14:08:10.360 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -&gt; org.hibernate.type.DurationType@24189efb
+14:08:10.368 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -&gt; org.hibernate.type.InstantType@4bac8871
+14:08:10.368 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -&gt; org.hibernate.type.InstantType@4bac8871
+14:08:10.371 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -&gt; org.hibernate.type.LocalDateTimeType@1f3caf90
+14:08:10.371 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -&gt; org.hibernate.type.LocalDateTimeType@1f3caf90
+14:08:10.375 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -&gt; org.hibernate.type.LocalDateType@25ab31cd
+14:08:10.375 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -&gt; org.hibernate.type.LocalDateType@25ab31cd
+14:08:10.377 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -&gt; org.hibernate.type.LocalTimeType@26c90d0e
+14:08:10.377 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -&gt; org.hibernate.type.LocalTimeType@26c90d0e
+14:08:10.379 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -&gt; org.hibernate.type.OffsetDateTimeType@1da716eb
+14:08:10.380 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -&gt; org.hibernate.type.OffsetDateTimeType@1da716eb
+14:08:10.383 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -&gt; org.hibernate.type.OffsetTimeType@36266606
+14:08:10.383 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -&gt; org.hibernate.type.OffsetTimeType@36266606
+14:08:10.386 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -&gt; org.hibernate.type.ZonedDateTimeType@3cc5828b
+14:08:10.386 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -&gt; org.hibernate.type.ZonedDateTimeType@3cc5828b
+14:08:10.389 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -&gt; org.hibernate.type.DateType@35ca056e
+14:08:10.389 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -&gt; org.hibernate.type.DateType@35ca056e
+14:08:10.392 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -&gt; org.hibernate.type.TimeType@44d5089e
+14:08:10.392 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -&gt; org.hibernate.type.TimeType@44d5089e
+14:08:10.395 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -&gt; org.hibernate.type.TimestampType@227d6e30
+14:08:10.396 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -&gt; org.hibernate.type.TimestampType@227d6e30
+14:08:10.396 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -&gt; org.hibernate.type.TimestampType@227d6e30
+14:08:10.397 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -&gt; org.hibernate.type.DbTimestampType@4bb567fa
+14:08:10.399 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -&gt; org.hibernate.type.CalendarType@70cda0ab
+14:08:10.400 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -&gt; org.hibernate.type.CalendarType@70cda0ab
+14:08:10.400 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -&gt; org.hibernate.type.CalendarType@70cda0ab
+14:08:10.401 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -&gt; org.hibernate.type.CalendarDateType@6eacbcca
+14:08:10.403 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -&gt; org.hibernate.type.CalendarTimeType@45012161
+14:08:10.404 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -&gt; org.hibernate.type.LocaleType@5d82d28b
+14:08:10.404 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -&gt; org.hibernate.type.LocaleType@5d82d28b
+14:08:10.406 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -&gt; org.hibernate.type.CurrencyType@22833b4d
+14:08:10.407 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -&gt; org.hibernate.type.CurrencyType@22833b4d
+14:08:10.408 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -&gt; org.hibernate.type.TimeZoneType@7631cb18
+14:08:10.409 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -&gt; org.hibernate.type.TimeZoneType@7631cb18
+14:08:10.410 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -&gt; org.hibernate.type.ClassType@1c50f7b9
+14:08:10.410 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -&gt; org.hibernate.type.ClassType@1c50f7b9
+14:08:10.411 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -&gt; org.hibernate.type.UUIDBinaryType@33e48abf
+14:08:10.412 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -&gt; org.hibernate.type.UUIDBinaryType@33e48abf
+14:08:10.412 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -&gt; org.hibernate.type.UUIDCharType@652494b8
+14:08:10.414 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -&gt; org.hibernate.type.BinaryType@34fcbf18
+14:08:10.415 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -&gt; org.hibernate.type.BinaryType@34fcbf18
+14:08:10.415 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -&gt; org.hibernate.type.BinaryType@34fcbf18
+14:08:10.417 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -&gt; org.hibernate.type.WrapperBinaryType@4a0ea74c
+14:08:10.417 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -&gt; org.hibernate.type.WrapperBinaryType@4a0ea74c
+14:08:10.417 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -&gt; org.hibernate.type.WrapperBinaryType@4a0ea74c
+14:08:10.419 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -&gt; org.hibernate.type.RowVersionType@46428d24
+14:08:10.420 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -&gt; org.hibernate.type.ImageType@3626464f
+14:08:10.421 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -&gt; org.hibernate.type.CharArrayType@9a6632f
+14:08:10.421 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -&gt; org.hibernate.type.CharArrayType@9a6632f
+14:08:10.422 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -&gt; org.hibernate.type.CharArrayType@9a6632f
+14:08:10.423 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -&gt; org.hibernate.type.CharacterArrayType@714b2418
+14:08:10.423 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -&gt; org.hibernate.type.CharacterArrayType@714b2418
+14:08:10.424 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -&gt; org.hibernate.type.CharacterArrayType@714b2418
+14:08:10.424 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -&gt; org.hibernate.type.TextType@38854910
+14:08:10.425 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -&gt; org.hibernate.type.NTextType@66b5a9bd
+14:08:10.427 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -&gt; org.hibernate.type.BlobType@5fa36860
+14:08:10.428 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -&gt; org.hibernate.type.BlobType@5fa36860
+14:08:10.428 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -&gt; org.hibernate.type.MaterializedBlobType@1bc22592
+14:08:10.431 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -&gt; org.hibernate.type.ClobType@1198c190
+14:08:10.431 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -&gt; org.hibernate.type.ClobType@1198c190
+14:08:10.434 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -&gt; org.hibernate.type.NClobType@4ad6992e
+14:08:10.434 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -&gt; org.hibernate.type.NClobType@4ad6992e
+14:08:10.435 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -&gt; org.hibernate.type.MaterializedClobType@50de66f1
+14:08:10.436 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -&gt; org.hibernate.type.MaterializedNClobType@7d8cbd53
+14:08:10.438 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -&gt; org.hibernate.type.SerializableType@6ccbc121
+14:08:10.443 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -&gt; org.hibernate.type.ObjectType@356495c2
+14:08:10.444 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -&gt; org.hibernate.type.ObjectType@356495c2
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -&gt; org.hibernate.type.AdaptedImmutableType@1835ddc3
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -&gt; org.hibernate.type.AdaptedImmutableType@aee83f
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -&gt; org.hibernate.type.AdaptedImmutableType@62efce68
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -&gt; org.hibernate.type.AdaptedImmutableType@4b4f70e7
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -&gt; org.hibernate.type.AdaptedImmutableType@7da26788
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -&gt; org.hibernate.type.AdaptedImmutableType@aba9713
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -&gt; org.hibernate.type.AdaptedImmutableType@163a94a2
+14:08:10.445 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -&gt; org.hibernate.type.AdaptedImmutableType@26c206ca
+14:08:10.468 [Test worker] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@851b7c4] into BootstrapContext; was [null]
+14:08:10.468 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@851b7c4) [was null]
+14:08:10.469 [Test worker] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@616948a6] into BootstrapContext; was [null]
+14:08:10.469 [Test worker] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3943f86c] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5eba8f88]
+14:08:10.571 [Test worker] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@851b7c4]
+14:08:10.571 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@851b7c4]
+14:08:10.591 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -&gt; [org.hibernate.id.UUIDGenerator]
+14:08:10.592 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -&gt; [org.hibernate.id.GUIDGenerator]
+14:08:10.594 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -&gt; [org.hibernate.id.UUIDHexGenerator]
+14:08:10.594 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -&gt; [org.hibernate.id.UUIDHexGenerator]
+14:08:10.595 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -&gt; [org.hibernate.id.Assigned]
+14:08:10.596 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -&gt; [org.hibernate.id.IdentityGenerator]
+14:08:10.597 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -&gt; [org.hibernate.id.SelectGenerator]
+14:08:10.600 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -&gt; [org.hibernate.id.enhanced.SequenceStyleGenerator]
+14:08:10.602 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -&gt; [org.hibernate.id.SequenceHiLoGenerator]
+14:08:10.603 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -&gt; [org.hibernate.id.IncrementGenerator]
+14:08:10.604 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -&gt; [org.hibernate.id.ForeignGenerator]
+14:08:10.605 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -&gt; [org.hibernate.id.SequenceIdentityGenerator]
+14:08:10.605 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -&gt; [org.hibernate.id.enhanced.SequenceStyleGenerator]
+14:08:10.607 [Test worker] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -&gt; [org.hibernate.id.enhanced.TableGenerator]
+14:08:11.261 [Test worker] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database -&gt;
+       name : HSQL Database Engine
+    version : 2.5.0
+      major : 2
+      minor : 5
+14:08:11.261 [Test worker] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver -&gt;
+       name : HSQL Database Engine Driver
+    version : 2.5.0
+      major : 2
+      minor : 5
+14:08:11.262 [Test worker] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.2
+14:08:11.276 [Test worker] INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sam.mines.address.persistence.config.CustomHsqlDialect
+14:08:11.306 [Test worker] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+14:08:11.358 [Test worker] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+14:08:11.361 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -&gt; org.sam.mines.address.persistence.config.UUIDType@4b82ee12
+14:08:11.364 [Test worker] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2cf4d564] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4b3652ac]
+14:08:11.478 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: org.sam.mines.address.model.Town
+14:08:11.521 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+14:08:11.530 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Town
+14:08:11.536 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity org.sam.mines.address.model.Town on table Town
+14:08:11.579 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=uuid, insertable=true, updatable=true, unique=true}
+14:08:11.585 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property uuid with lazy=false
+14:08:11.589 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Town:uuid]
+14:08:11.591 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for uuid
+14:08:11.594 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property uuid
+14:08:11.600 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(uuid)]), uuid, org.hibernate.id.UUIDGenerator, UUID, ...)
+14:08:11.604 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='town'}
+14:08:11.605 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=addresses, insertable=true, updatable=true, unique=false}
+14:08:11.608 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=null, insertable=true, updatable=true, unique=false}
+14:08:11.627 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=element, insertable=true, updatable=true, unique=false}
+14:08:11.628 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=addresses_KEY, insertable=true, updatable=true, unique=false}
+14:08:11.629 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='addresses_KEY', referencedColumn='null', mappedBy='null'}
+14:08:11.631 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='town'}
+14:08:11.632 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='town'}
+14:08:11.633 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: org.sam.mines.address.model.Town.addresses
+14:08:11.638 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property addresses
+14:08:11.639 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=name, insertable=true, updatable=true, unique=false}
+14:08:11.639 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+14:08:11.639 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Town:name]
+14:08:11.639 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
+14:08:11.640 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+14:08:11.640 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Town), mappingColumn=postcode, insertable=true, updatable=true, unique=false}
+14:08:11.640 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property postcode with lazy=false
+14:08:11.640 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Town:postcode]
+14:08:11.640 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for postcode
+14:08:11.641 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property postcode
+14:08:11.642 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: org.sam.mines.address.model.Address
+14:08:11.642 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+14:08:11.643 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Address
+14:08:11.643 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity org.sam.mines.address.model.Address on table Address
+14:08:11.650 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=uuid, insertable=true, updatable=true, unique=true}
+14:08:11.650 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property uuid with lazy=false
+14:08:11.650 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Address:uuid]
+14:08:11.650 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for uuid
+14:08:11.651 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property uuid
+14:08:11.651 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(uuid)]), uuid, org.hibernate.id.UUIDGenerator, UUID, ...)
+14:08:11.651 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=number, insertable=true, updatable=true, unique=false}
+14:08:11.651 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property number with lazy=false
+14:08:11.651 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Address:number]
+14:08:11.652 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for number
+14:08:11.652 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property number
+14:08:11.652 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=street, insertable=true, updatable=true, unique=false}
+14:08:11.652 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property street with lazy=false
+14:08:11.652 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Address:street]
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for street
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property street
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=null, insertable=true, updatable=true, unique=false}
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=element, insertable=true, updatable=true, unique=false}
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=targets_KEY, insertable=true, updatable=true, unique=false}
+14:08:11.653 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='targets_KEY', referencedColumn='null', mappedBy='null'}
+14:08:11.654 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='address_uuid', referencedColumn='uuid', mappedBy=''}
+14:08:11.654 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='target_uuid', referencedColumn='uuid', mappedBy=''}
+14:08:11.654 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: org.sam.mines.address.model.Address.targets
+14:08:11.654 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property targets
+14:08:11.655 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+14:08:11.655 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Address), mappingColumn=town, insertable=true, updatable=true, unique=false}
+14:08:11.657 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property town
+14:08:11.658 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: org.sam.mines.address.model.Target
+14:08:11.658 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+14:08:11.658 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Target
+14:08:11.659 [Test worker] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity org.sam.mines.address.model.Target on table Target
+14:08:11.660 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=uuid, insertable=true, updatable=true, unique=true}
+14:08:11.661 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property uuid with lazy=false
+14:08:11.661 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Target:uuid]
+14:08:11.661 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for uuid
+14:08:11.661 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property uuid
+14:08:11.662 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(uuid)]), uuid, org.hibernate.id.UUIDGenerator, UUID, ...)
+14:08:11.662 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=null, insertable=true, updatable=true, unique=false}
+14:08:11.663 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=element, insertable=true, updatable=true, unique=false}
+14:08:11.663 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=addresses_KEY, insertable=true, updatable=true, unique=false}
+14:08:11.663 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='addresses_KEY', referencedColumn='null', mappedBy='null'}
+14:08:11.663 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='targets'}
+14:08:11.663 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='targets'}
+14:08:11.664 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: org.sam.mines.address.model.Target.addresses
+14:08:11.664 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property addresses
+14:08:11.664 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+14:08:11.664 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false
+14:08:11.665 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Target:firstname]
+14:08:11.665 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for firstname
+14:08:11.665 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property firstname
+14:08:11.665 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Target), mappingColumn=name, insertable=true, updatable=true, unique=false}
+14:08:11.666 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+14:08:11.666 [Test worker] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [org.sam.mines.address.model.Target:name]
+14:08:11.666 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
+14:08:11.666 [Test worker] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for uuid
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for postcode
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for uuid
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for number
+14:08:11.670 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for street
+14:08:11.671 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for uuid
+14:08:11.671 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname
+14:08:11.671 [Test worker] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+14:08:11.680 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [uuid] to be non-null as it is part of the primary key for table [town]
+14:08:11.680 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [uuid] to be non-null as it is part of the primary key for table [address]
+14:08:11.680 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [uuid] to be non-null as it is part of the primary key for table [target]
+14:08:11.681 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: org.sam.mines.address.model.Address.targets
+14:08:11.681 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding as ManyToMany: org.sam.mines.address.model.Address.targets
+14:08:11.687 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [address_uuid] to be non-null as it is part of the primary key for table [targetaddress]
+14:08:11.687 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [target_uuid] to be non-null as it is part of the primary key for table [targetaddress]
+14:08:11.687 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: address_uuid, element: target_uuid
+14:08:11.687 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: org.sam.mines.address.model.Town.addresses
+14:08:11.688 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: org.sam.mines.address.model.Town.addresses through a foreign key
+14:08:11.689 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: org.sam.mines.address.model.Town.addresses -&gt; Address
+14:08:11.689 [Test worker] DEBUG org.hibernate.cfg.annotations.TableBinder - Retrieving property org.sam.mines.address.model.Address.town
+14:08:11.689 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: town_uuid, one-to-many: org.sam.mines.address.model.Address
+14:08:11.690 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: org.sam.mines.address.model.Target.addresses
+14:08:11.690 [Test worker] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding as ManyToMany: org.sam.mines.address.model.Target.addresses
+14:08:11.690 [Test worker] DEBUG org.hibernate.cfg.annotations.TableBinder - Retrieving property org.sam.mines.address.model.Address.targets
+14:08:11.690 [Test worker] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: target_uuid, element: address_uuid
+14:08:11.690 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Town
+14:08:11.694 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Target
+14:08:11.695 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Address
+14:08:11.697 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Town
+14:08:11.697 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Target
+14:08:11.697 [Test worker] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: org.sam.mines.address.model.Address
+14:08:11.751 [Test worker] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+14:08:11.753 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+14:08:11.753 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+14:08:11.753 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+14:08:11.753 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+14:08:11.753 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: null
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+14:08:11.754 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+14:08:11.755 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: ON_CLOSE
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+14:08:11.756 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+14:08:11.885 [Test worker] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+14:08:11.886 [Test worker] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.sam.mines.address.persistence.config.CustomHsqlDialect, org.gradle.test.worker=1, java.class.path=C:\\Users\\jessy\\.gradle\\caches\\6.0.1\\workerMain\\gradle-worker.jar;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\classes\\java\\test;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\classes\\kotlin\\test;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\resources\\test;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\classes\\java\\main;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\classes\\kotlin\\main;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-persistence\\build\\resources\\main;C:\\Users\\jessy\\Desktop\\sampleApp\\address-app\\address-model\\build\\libs\\address-model.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.data\\spring-data-jpa\\2.2.4.RELEASE\\98326881eb34683827217177de9a619ede87b0a7\\spring-data-jpa-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.postgresql\\postgresql\\42.2.10\\338af492789fd198dbd52735a22b1946030ecc96\\postgresql-42.2.10.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.flywaydb\\flyway-core\\6.2.2\\7c8172a27c631882ce81a55fb2cfaf5edf602b58\\flyway-core-6.2.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.module\\jackson-module-kotlin\\2.10.2\\939796de1ff084e55fc7bbfc9d34cb0b8ac97fb8\\jackson-module-kotlin-2.10.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-reflect\\1.3.70\\75a87c4141e55abbaf418b8495550ced8894045d\\kotlin-reflect-1.3.70.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk8\\1.3.70\\c706d9a12aa043400daacbb15b61ba662a1eb9a9\\kotlin-stdlib-jdk8-1.3.70.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-test\\2.2.4.RELEASE\\a2f42a2e8287ff7da8cc225a93af64f5a5f3fb23\\spring-boot-starter-test-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-junit-jupiter\\3.2.4\\3e2c5533f344b0a5a4a003356d8eb494d5a7bcb6\\mockito-junit-jupiter-3.2.4.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-core\\3.2.4\\cb53dbffde7a79e81b0f79e4a3e5e74ed67afcda\\mockito-core-3.2.4.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.hsqldb\\hsqldb\\2.5.0\\59298fcd77faf01e02b405def2f80cccbf582508\\hsqldb-2.5.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-dbcp2\\2.7.0\\ac3c5077659b4b9140e8fa63e855e0437fe94357\\commons-dbcp2-2.7.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate\\hibernate-core\\5.4.11.Final\\d98fcab1a503d1400638f7da0f2810dbd6a6e887\\hibernate-core-5.4.11.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.data\\spring-data-commons\\2.2.4.RELEASE\\a757fddb553a9b9e44f1ac0615d636fd5d7254c9\\spring-data-commons-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-orm\\5.2.3.RELEASE\\c78c4b7d34b2e5104295d1149590ddedb79bfb1e\\spring-orm-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter\\2.2.4.RELEASE\\7a1bb344e00091e7867eb61754fe41f097e13a47\\spring-boot-starter-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test-autoconfigure\\2.2.4.RELEASE\\90ec5147666e81d572681f8eaef6797732c3466d\\spring-boot-test-autoconfigure-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test\\2.2.4.RELEASE\\793c9bf969d12617fa368e4ad42fa8631af1465c\\spring-boot-test-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-autoconfigure\\2.2.4.RELEASE\\36d2bb5d0eeb616eb84f754c4076b30e6b61614c\\spring-boot-autoconfigure-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot\\2.2.4.RELEASE\\225a4fd31156c254e3bb92adb42ee8c6de812714\\spring-boot-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-context\\5.2.3.RELEASE\\7750c95c96c7a1885c8b1b503ba915bc33ca579a\\spring-context-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-aop\\5.2.3.RELEASE\\9cdd9a1dd636331767fffcc7fe49a7bb00e7b34b\\spring-aop-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-jdbc\\5.2.3.RELEASE\\950e6c72c39a5eeabe11f4c60c20f9d401c33b32\\spring-jdbc-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-tx\\5.2.3.RELEASE\\99acf44c9844accb84f88672d273ff01527a9592\\spring-tx-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-beans\\5.2.3.RELEASE\\250c8c641433dc06b1b44e4563fa08a2fbf8954\\spring-beans-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-test\\5.2.3.RELEASE\\28aeb3858edaf218fdc3db1bd46857fe9ffa7103\\spring-test-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-expression\\5.2.3.RELEASE\\d0c6bb10758805b2153c589686b8045554bfac2d\\spring-expression-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-core\\5.2.3.RELEASE\\3734223040040e8c3fecd5faa3ae8a1ed6da146b\\spring-core-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.aspectj\\aspectjrt\\1.9.5\\dc063f2557f6734ccb529b4c1d97132e4c8c739\\aspectjrt-1.9.5.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.jayway.jsonpath\\json-path\\2.4.0\\765a4401ceb2dc8d40553c2075eb80a8fa35c2ae\\json-path-2.4.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-logging\\2.2.4.RELEASE\\2b218e4ae88bfe8174ea1d52fe38fce70be0e67\\spring-boot-starter-logging-2.2.4.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-classic\\1.2.3\\7c4f3c474fb2c041d8028740440937705ebb473a\\logback-classic-1.2.3.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-to-slf4j\\2.12.1\\dfb42ea8ce1a399bcf7218efe8115a0b7ab3788a\\log4j-to-slf4j-2.12.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\1.7.30\\d58bebff8cbf70ff52b59208586095f467656c30\\jul-to-slf4j-1.7.30.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\\slf4j-api-1.7.30.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.10.2\\528de95f198afafbcfb0c09d2e43b6e0ea663ec\\jackson-databind-2.10.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.10.2\\3a13b6105946541b8d4181a0506355b5fae63260\\jackson-annotations-2.10.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk7\\1.3.70\\95aee922bc2a0fff3b7bfa1b6503ff0afe38264a\\kotlin-stdlib-jdk7-1.3.70.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.3.70\\e5d97e25bb5b30dcfc022ec1c8f3959a875257fb\\kotlin-stdlib-1.3.70.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy\\1.10.7\\1eefb7dd1b032b33c773ca0a17d5cc9e6b56ea1a\\byte-buddy-1.10.7.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy-agent\\1.10.5\\d1c949ee74c3421ffd3d9159c867777ded928448\\byte-buddy-agent-1.10.5.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\2.6\\639033469776fd37c08358c6b92a4761feb2af4b\\objenesis-2.6.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter\\5.5.2\\f8561a498ec26b24a3a64aebb6b2307fed000a33\\junit-jupiter-5.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-params\\5.5.2\\e0659722923bd9fdfa08602e2da22bd5a9d354e8\\junit-jupiter-params-5.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\5.5.2\\f597408bde45371548f9e9791da7981a1134328d\\junit-jupiter-engine-5.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\5.5.2\\6393db7e4c0265152d8fc4ff146633d1a7d36c47\\junit-jupiter-api-5.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-pool2\\2.7.0\\7f9ccfaaf76b0ba8b4200480971a170364a9c361\\commons-pool2-2.7.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.2\\4bfc12adfe4842bf07b657f0369c4cb522955686\\commons-logging-1.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.xml.bind\\jakarta.xml.bind-api\\2.3.2\\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\\jakarta.xml.bind-api-2.3.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.assertj\\assertj-core\\3.13.2\\bb7b963fe752f69f055df0025691eceb83ce0c5d\\assertj-core-3.13.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.hamcrest\\hamcrest\\2.1\\9420ba32c29217b54eebd26ff7f9234d31c3fbb2\\hamcrest-2.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.skyscreamer\\jsonassert\\1.5.0\\6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3\\jsonassert-1.5.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.xmlunit\\xmlunit-core\\2.6.3\\cdb208320aed4a7b94fb236cfbf91aeb6d0ede14\\xmlunit-core-2.6.3.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.common\\hibernate-commons-annotations\\5.1.0.Final\\700aeedc4a2089816621948f0379e17cbd17d5db\\hibernate-commons-annotations-5.1.0.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.validator\\hibernate-validator\\6.1.2.Final\\7710ee9f1aa2210d401947d1298c8bdcbeff2f1e\\hibernate-validator-6.1.2.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.logging\\jboss-logging\\3.3.2.Final\\3789d00e859632e6c6206adc0c71625559e6e3b0\\jboss-logging-3.3.2.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\javax.persistence\\javax.persistence-api\\2.2\\25665ac8c0b62f50e6488173233239120fc52c96\\javax.persistence-api-2.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.24.0-GA\\d7466fc2e3af7c023e95c510f06448ad29b225b3\\javassist-3.24.0-GA.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\antlr\\antlr\\2.7.7\\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\\antlr-2.7.7.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.spec.javax.transaction\\jboss-transaction-api_1.2_spec\\1.1.1.Final\\a8485cab9484dda36e9a8c319e76b5cc18797b58\\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss\\jandex\\2.1.1.Final\\c89aa5564fea8b08b9b41f0bbcabb8fed0d89c0d\\jandex-2.1.1.Final.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml\\classmate\\1.5.1\\3fe0bed568c62df5e89f4f174c101eab25345b6c\\classmate-1.5.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-runtime\\2.3.1\\dd6dda9da676a54c5b36ca2806ff95ee017d8738\\jaxb-runtime-2.3.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\\jaxb-api-2.3.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\85262acf3ca9816f9537ca47d5adeabaead7cb16\\javax.activation-api-1.2.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.dom4j\\dom4j\\2.1.1\\3dce5dbb3571aa820c677fadd8349bfa8f00c199\\dom4j-2.1.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-jcl\\5.2.3.RELEASE\\fcba3ae00724ee18f37aa49ac887a5fd4ad77502\\spring-jcl-5.2.3.RELEASE.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.10.2\\73d4322a6bda684f676a2b5fe918361c4e5c7cca\\jackson-core-2.10.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.70\\3fa8dd6c896d635e78201e5e811545f3846dec04\\kotlin-stdlib-common-1.3.70.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\13.0\\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\\annotations-13.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\1.5.2\\d5697f6ebe0b4d08c0210b5b98b4e1a40f40dfc6\\junit-platform-engine-1.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\1.5.2\\9703df63b65d415b2a027d43ce908c625b3aedce\\junit-platform-commons-1.5.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.apiguardian\\apiguardian-api\\1.1.0\\fc9dff4bb36d627bdc553de77e1f17efd790876c\\apiguardian-api-1.1.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.opentest4j\\opentest4j\\1.2.0\\28c11eb91f9b6d8e200631d46e20a7f407f2a046\\opentest4j-1.2.0.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\1.3.5\\59eb84ee0d616332ff44aba065f3888cf002cd2d\\jakarta.annotation-api-1.3.5.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.yaml\\snakeyaml\\1.25\\8b6e01ef661d8378ae6dd7b511a7f2a33fae1421\\snakeyaml-1.25.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\json-smart\\2.3\\7396407491352ce4fa30de92efb158adb76b5b\\json-smart-2.3.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.activation\\jakarta.activation-api\\1.2.1\\562a587face36ec7eff2db7f2fc95425c6602bc1\\jakarta.activation-api-1.2.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.vaadin.external.google\\android-json\\0.0.20131108.vaadin1\\fa26d351fe62a6a17f5cda1287c1c6110dec413f\\android-json-0.0.20131108.vaadin1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\txw2\\2.3.1\\a09d2c48d3285f206fafbffe0e50619284e92126\\txw2-2.3.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.istack\\istack-commons-runtime\\3.0.7\\c197c86ceec7318b1284bffb49b54226ca774003\\istack-commons-runtime-3.0.7.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.staxex\\stax-ex\\1.8\\8cc35f73da321c29973191f2cf143d29d26a1df7\\stax-ex-1.8.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.fastinfoset\\FastInfoset\\1.2.15\\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\\FastInfoset-1.2.15.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.validation\\jakarta.validation-api\\2.0.2\\5eacc6522521f7eacb081f95cee1e231648461e7\\jakarta.validation-api-2.0.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\accessors-smart\\1.2\\c592b500269bfde36096641b01238a8350f8aa31\\accessors-smart-1.2.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-core\\1.2.3\\864344400c3d4d92dfeb0a305dc87d953677c03c\\logback-core-1.2.3.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.12.1\\a55e6d987f50a515c9260b0451b4fa217dc539cb\\log4j-api-2.12.1.jar;C:\\Users\\jessy\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\5.0.4\\da08b8cce7bbf903602a25a3a163ae252435795\\asm-5.0.4.jar, java.vm.vendor=JetBrains s.r.o, sun.arch.data.model=64, user.variant=, java.vendor.url=https://www.jetbrains.com/, user.timezone=Europe/Paris, os.name=Windows 10, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', javax.persistence.nonJtaDataSource=org.apache.commons.dbcp2.BasicDataSource@5e18513, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\jessy, user.language=fr, java.specification.vendor=Oracle Corporation, org.gradle.native=false, java.version.date=2019-10-15, java.home=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.5+10-b520.17, user.name=jessy, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=windows-1252, hibernate.ejb.persistenceUnitName=default, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext, java.vendor.url.bug=https://youtrack.jetbrains.com, java.io.tmpdir=C:\Users\jessy\AppData\Local\Temp\, java.version=11.0.5, user.dir=C:\Users\jessy\Desktop\sampleApp\address-app\address-persistence, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, javax.persistence.schema-generation.database.action=Action(externalJpaName=create, externalHbm2ddlName=create-only), sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@295e9bb4, java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\jdk-10\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\wamp64\bin\php\php7.2.18;C:\ProgramData\ComposerSetup\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jessy\AppData\Local\Microsoft\WindowsApps;C:\Users\jessy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jessy\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Professional Edition with Anaconda plugin 2019.3.2\bin;C:\Users\jessy\AppData\Local\atom\bin;C:\Users\jessy\AppData\Roaming\Composer\vendor\bin;., java.vendor=JetBrains s.r.o, java.vm.info=mixed mode, sharing, java.vm.version=11.0.5+10-b520.17, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.datasource=org.apache.commons.dbcp2.BasicDataSource@5e18513, java.class.version=55.0}
+14:08:11.955 [Test worker] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.2.Final
+14:08:11.969 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+14:08:11.971 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+14:08:11.978 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+14:08:11.980 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+14:08:11.981 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+14:08:11.981 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+14:08:12.028 [Test worker] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Failed to load expression factory via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@49476842
+java.lang.NoClassDefFoundError: javax/el/ExpressionFactory
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.canLoadExpressionFactory(ResourceBundleMessageInterpolator.java:216)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:170)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.&lt;init&gt;(ResourceBundleMessageInterpolator.java:94)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getDefaultMessageInterpolator(AbstractConfigurationImpl.java:559)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(AbstractConfigurationImpl.java:759)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getMessageInterpolator(AbstractConfigurationImpl.java:468)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.&lt;init&gt;(ValidatorFactoryImpl.java:147)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.buildValidatorFactory(AbstractConfigurationImpl.java:435)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:501)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:131)
+	at org.hibernate.internal.SessionFactoryImpl.&lt;init&gt;(SessionFactoryImpl.java:280)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: javax.el.ExpressionFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 130 common frames omitted
+14:08:12.034 [Test worker] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Failed to load expression factory via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@49476842
+java.lang.NoClassDefFoundError: javax/el/ExpressionFactory
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.canLoadExpressionFactory(ResourceBundleMessageInterpolator.java:216)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:183)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.&lt;init&gt;(ResourceBundleMessageInterpolator.java:94)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getDefaultMessageInterpolator(AbstractConfigurationImpl.java:559)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(AbstractConfigurationImpl.java:759)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getMessageInterpolator(AbstractConfigurationImpl.java:468)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.&lt;init&gt;(ValidatorFactoryImpl.java:147)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.buildValidatorFactory(AbstractConfigurationImpl.java:435)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:501)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:131)
+	at org.hibernate.internal.SessionFactoryImpl.&lt;init&gt;(SessionFactoryImpl.java:280)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:08:12.039 [Test worker] DEBUG org.hibernate.cfg.beanvalidation.TypeSafeActivator - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+14:08:12.039 [Test worker] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+14:08:12.040 [Test worker] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+14:08:12.041 [Test worker] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2cf4d564] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7085a0fe]
+14:08:12.128 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Town] is safe
+14:08:12.128 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Town
+14:08:12.157 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Town] is safe
+14:08:12.157 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Town
+14:08:12.185 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Address] is safe
+14:08:12.186 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Address
+14:08:12.186 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Address] is safe
+14:08:12.186 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Address
+14:08:12.188 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Target] is safe
+14:08:12.188 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Target
+14:08:12.188 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [org.sam.mines.address.model.Target] is safe
+14:08:12.188 [Test worker] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.sam.mines.address.model.Target
+14:08:12.209 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: org.sam.mines.address.model.Target.addresses
+14:08:12.210 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into targetaddress (target_uuid, address_uuid) values (?, ?)
+14:08:12.210 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update targetaddress set address_uuid=? where target_uuid=? and address_uuid=?
+14:08:12.210 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from targetaddress where target_uuid=? and address_uuid=?
+14:08:12.210 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from targetaddress where target_uuid=?
+14:08:12.214 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: org.sam.mines.address.model.Town.addresses
+14:08:12.214 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update Address set town_uuid=? where uuid=?
+14:08:12.214 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update Address set  where uuid=?
+14:08:12.214 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update Address set town_uuid=null where town_uuid=? and uuid=?
+14:08:12.214 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update Address set town_uuid=null where town_uuid=?
+14:08:12.215 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: org.sam.mines.address.model.Address.targets
+14:08:12.215 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into targetaddress (address_uuid, target_uuid) values (?, ?)
+14:08:12.215 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update targetaddress set target_uuid=? where address_uuid=? and target_uuid=?
+14:08:12.215 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from targetaddress where address_uuid=? and target_uuid=?
+14:08:12.215 [Test worker] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from targetaddress where address_uuid=?
+14:08:12.219 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: org.sam.mines.address.model.Town
+14:08:12.219 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select uuid from Town where uuid =?
+14:08:12.219 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select town_.uuid, town_.name as name2_3_, town_.postcode as postcode3_3_ from Town town_ where town_.uuid=?
+14:08:12.220 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Town (name, postcode, uuid) values (?, ?, ?)
+14:08:12.220 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Town set name=?, postcode=? where uuid=?
+14:08:12.220 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Town where uuid=?
+14:08:12.297 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@46659eb3]
+14:08:12.299 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : addresses
+14:08:12.307 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@143fdf95]
+14:08:12.310 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@592b1542]
+14:08:12.311 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+14:08:12.311 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : postcode
+14:08:12.311 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.336 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.344 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Town)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Town, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Town)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Town.addresses, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Town.addresses)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Town.addresses.&lt;elements&gt;)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Town)
+          - SQL table alias mapping - town0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_3_0_}
+
+14:08:12.348 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Town [NONE]: select town0_.uuid as uuid1_3_0_, town0_.name as name2_3_0_, town0_.postcode as postcode3_3_0_ from Town town0_ where town0_.uuid=?
+14:08:12.348 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c37e3ba]
+14:08:12.348 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : addresses
+14:08:12.348 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@40354326]
+14:08:12.348 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4fc53047]
+14:08:12.349 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+14:08:12.349 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : postcode
+14:08:12.349 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.349 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.349 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Town)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Town, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Town)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Town.addresses, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Town.addresses)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Town.addresses.&lt;elements&gt;)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Town)
+          - SQL table alias mapping - town0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_3_0_}
+
+14:08:12.350 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Town [READ]: select town0_.uuid as uuid1_3_0_, town0_.name as name2_3_0_, town0_.postcode as postcode3_3_0_ from Town town0_ where town0_.uuid=?
+14:08:12.372 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity org.sam.mines.address.model.Town: select town0_.uuid as uuid1_3_0_, town0_.name as name2_3_0_, town0_.postcode as postcode3_3_0_ from Town town0_ where town0_.uuid=?
+14:08:12.373 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity org.sam.mines.address.model.Town: select town0_.uuid as uuid1_3_0_, town0_.name as name2_3_0_, town0_.postcode as postcode3_3_0_ from Town town0_ where town0_.uuid=?
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: org.sam.mines.address.model.Address
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select uuid from Address where uuid =?
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select address_.uuid, address_.number as number2_0_, address_.street as street3_0_, address_.town_uuid as town_uui4_0_ from Address address_ where address_.uuid=?
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Address (number, street, town_uuid, uuid) values (?, ?, ?, ?)
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Address set number=?, street=?, town_uuid=? where uuid=?
+14:08:12.373 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Address where uuid=?
+14:08:12.374 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35a7a764]
+14:08:12.374 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : number
+14:08:12.374 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : street
+14:08:12.374 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : targets
+14:08:12.374 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2a6000be]
+14:08:12.374 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@373439e8]
+14:08:12.374 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town
+14:08:12.374 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:3&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fa034ed]
+14:08:12.377 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.addresses
+14:08:12.377 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : town.addresses
+14:08:12.377 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.name
+14:08:12.377 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.postcode
+14:08:12.377 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.378 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.379 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Address)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Address)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Address.targets, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Address.targets)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Address.targets.&lt;elements&gt;)
+          - EntityAttributeFetchImpl(entity=org.sam.mines.address.model.Town, querySpaceUid=&lt;gen:3&gt;, path=org.sam.mines.address.model.Address.town)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Address)
+          - SQL table alias mapping - address0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_0_0_}
+          - JOIN (JoinDefinedByMetadata(town)) : &lt;gen:0&gt; -&gt; &lt;gen:3&gt;
+             - EntityQuerySpaceImpl(uid=&lt;gen:3&gt;, entity=org.sam.mines.address.model.Town)
+                - SQL table alias mapping - town1_
+                - alias suffix - 1_
+                - suffixed key columns - {uuid1_3_1_}
+
+14:08:12.379 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Address [NONE]: select address0_.uuid as uuid1_0_0_, address0_.number as number2_0_0_, address0_.street as street3_0_0_, address0_.town_uuid as town_uui4_0_0_, town1_.uuid as uuid1_3_1_, town1_.name as name2_3_1_, town1_.postcode as postcode3_3_1_ from Address address0_ left outer join Town town1_ on address0_.town_uuid=town1_.uuid where address0_.uuid=?
+14:08:12.380 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7473634c]
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : number
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : street
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : targets
+14:08:12.380 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5956d7d7]
+14:08:12.380 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c89631b]
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town
+14:08:12.380 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:3&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@638f08c5]
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.addresses
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : town.addresses
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.name
+14:08:12.380 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.postcode
+14:08:12.381 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.381 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.381 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Address)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Address)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Address.targets, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Address.targets)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Address.targets.&lt;elements&gt;)
+          - EntityAttributeFetchImpl(entity=org.sam.mines.address.model.Town, querySpaceUid=&lt;gen:3&gt;, path=org.sam.mines.address.model.Address.town)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Address)
+          - SQL table alias mapping - address0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_0_0_}
+          - JOIN (JoinDefinedByMetadata(town)) : &lt;gen:0&gt; -&gt; &lt;gen:3&gt;
+             - EntityQuerySpaceImpl(uid=&lt;gen:3&gt;, entity=org.sam.mines.address.model.Town)
+                - SQL table alias mapping - town1_
+                - alias suffix - 1_
+                - suffixed key columns - {uuid1_3_1_}
+
+14:08:12.382 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Address [READ]: select address0_.uuid as uuid1_0_0_, address0_.number as number2_0_0_, address0_.street as street3_0_0_, address0_.town_uuid as town_uui4_0_0_, town1_.uuid as uuid1_3_1_, town1_.name as name2_3_1_, town1_.postcode as postcode3_3_1_ from Address address0_ left outer join Town town1_ on address0_.town_uuid=town1_.uuid where address0_.uuid=?
+14:08:12.382 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity org.sam.mines.address.model.Address: select address0_.uuid as uuid1_0_0_, address0_.number as number2_0_0_, address0_.street as street3_0_0_, address0_.town_uuid as town_uui4_0_0_ from Address address0_ where address0_.uuid=?
+14:08:12.382 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity org.sam.mines.address.model.Address: select address0_.uuid as uuid1_0_0_, address0_.number as number2_0_0_, address0_.street as street3_0_0_, address0_.town_uuid as town_uui4_0_0_ from Address address0_ where address0_.uuid=?
+14:08:12.382 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: org.sam.mines.address.model.Target
+14:08:12.382 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select uuid from Target where uuid =?
+14:08:12.382 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select target_.uuid, target_.firstname as firstnam2_1_, target_.name as name3_1_ from Target target_ where target_.uuid=?
+14:08:12.382 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Target (firstname, name, uuid) values (?, ?, ?)
+14:08:12.382 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Target set firstname=?, name=? where uuid=?
+14:08:12.383 [Test worker] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Target where uuid=?
+14:08:12.383 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e6890a3]
+14:08:12.383 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : addresses
+14:08:12.383 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@326c5b1c]
+14:08:12.383 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4bc33cc0]
+14:08:12.383 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : firstname
+14:08:12.383 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+14:08:12.383 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.383 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.384 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Target)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Target)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Target.addresses, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Target.addresses)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Target.addresses.&lt;elements&gt;)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Target)
+          - SQL table alias mapping - target0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_1_0_}
+
+14:08:12.384 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Target [NONE]: select target0_.uuid as uuid1_1_0_, target0_.firstname as firstnam2_1_0_, target0_.name as name3_1_0_ from Target target0_ where target0_.uuid=?
+14:08:12.384 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61844093]
+14:08:12.384 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : addresses
+14:08:12.384 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6d3c13b6]
+14:08:12.384 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fcb17ed]
+14:08:12.384 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : firstname
+14:08:12.384 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+14:08:12.385 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.385 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.385 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=org.sam.mines.address.model.Target)
+    - Returns
+       - EntityReturnImpl(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:0&gt;, path=org.sam.mines.address.model.Target)
+          - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Target.addresses, querySpaceUid=&lt;gen:1&gt;, path=org.sam.mines.address.model.Target.addresses)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:2&gt;, path=org.sam.mines.address.model.Target.addresses.&lt;elements&gt;)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=org.sam.mines.address.model.Target)
+          - SQL table alias mapping - target0_
+          - alias suffix - 0_
+          - suffixed key columns - {uuid1_1_0_}
+
+14:08:12.385 [Test worker] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity org.sam.mines.address.model.Target [READ]: select target0_.uuid as uuid1_1_0_, target0_.firstname as firstnam2_1_0_, target0_.name as name3_1_0_ from Target target0_ where target0_.uuid=?
+14:08:12.386 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity org.sam.mines.address.model.Target: select target0_.uuid as uuid1_1_0_, target0_.firstname as firstnam2_1_0_, target0_.name as name3_1_0_ from Target target0_ where target0_.uuid=?
+14:08:12.386 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity org.sam.mines.address.model.Target: select target0_.uuid as uuid1_1_0_, target0_.firstname as firstnam2_1_0_, target0_.name as name3_1_0_ from Target target0_ where target0_.uuid=?
+14:08:12.395 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@45af9d6]
+14:08:12.395 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@19e698ac]
+14:08:12.396 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : number
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : street
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : targets
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : targets
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town
+14:08:12.397 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d65c4ee]
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.addresses
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : town.addresses
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.name
+14:08:12.397 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town.postcode
+14:08:12.397 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.403 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.405 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=org.sam.mines.address.model.Target.addresses)
+    - Returns
+       - CollectionReturnImpl(collection=org.sam.mines.address.model.Target.addresses, querySpaceUid=&lt;gen:0&gt;, path=[org.sam.mines.address.model.Target.addresses])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:1&gt;, path=[org.sam.mines.address.model.Target.addresses].&lt;elements&gt;)
+             - EntityAttributeFetchImpl(entity=org.sam.mines.address.model.Town, querySpaceUid=&lt;gen:2&gt;, path=[org.sam.mines.address.model.Target.addresses].&lt;elements&gt;.town)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=&lt;gen:0&gt;, collection=org.sam.mines.address.model.Target.addresses)
+          - SQL table alias mapping - addresses0_
+          - alias suffix - 0_
+          - suffixed key columns - {target_u2_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - uuid1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : &lt;gen:0&gt; -&gt; &lt;gen:1&gt;
+             - EntityQuerySpaceImpl(uid=&lt;gen:1&gt;, entity=org.sam.mines.address.model.Address)
+                - SQL table alias mapping - address1_
+                - alias suffix - 1_
+                - suffixed key columns - {uuid1_0_1_}
+                - JOIN (JoinDefinedByMetadata(town)) : &lt;gen:1&gt; -&gt; &lt;gen:2&gt;
+                   - EntityQuerySpaceImpl(uid=&lt;gen:2&gt;, entity=org.sam.mines.address.model.Town)
+                      - SQL table alias mapping - town2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {uuid1_3_2_}
+
+14:08:12.406 [Test worker] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection org.sam.mines.address.model.Target.addresses: select addresses0_.target_uuid as target_u2_2_0_, addresses0_.address_uuid as address_1_2_0_, address1_.uuid as uuid1_0_1_, address1_.number as number2_0_1_, address1_.street as street3_0_1_, address1_.town_uuid as town_uui4_0_1_, town2_.uuid as uuid1_3_2_, town2_.name as name2_3_2_, town2_.postcode as postcode3_3_2_ from targetaddress addresses0_ inner join Address address1_ on addresses0_.address_uuid=address1_.uuid left outer join Town town2_ on address1_.town_uuid=town2_.uuid where addresses0_.target_uuid=?
+14:08:12.406 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1c2efb9d]
+14:08:12.406 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62ca0298]
+14:08:12.406 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : number
+14:08:12.407 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : street
+14:08:12.407 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : targets
+14:08:12.407 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:2&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@38d7d61c]
+14:08:12.407 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:3&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@abbdd5c]
+14:08:12.407 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : town
+14:08:12.407 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : town
+14:08:12.407 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.408 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.409 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=org.sam.mines.address.model.Town.addresses)
+    - Returns
+       - CollectionReturnImpl(collection=org.sam.mines.address.model.Town.addresses, querySpaceUid=&lt;gen:0&gt;, path=[org.sam.mines.address.model.Town.addresses])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Address, querySpaceUid=&lt;gen:1&gt;, path=[org.sam.mines.address.model.Town.addresses].&lt;elements&gt;)
+             - CollectionAttributeFetchImpl(collection=org.sam.mines.address.model.Address.targets, querySpaceUid=&lt;gen:2&gt;, path=[org.sam.mines.address.model.Town.addresses].&lt;elements&gt;.targets)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:3&gt;, path=[org.sam.mines.address.model.Town.addresses].&lt;elements&gt;.targets.&lt;elements&gt;)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=&lt;gen:0&gt;, collection=org.sam.mines.address.model.Town.addresses)
+          - SQL table alias mapping - addresses0_
+          - alias suffix - 0_
+          - suffixed key columns - {town_uui4_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - uuid1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : &lt;gen:0&gt; -&gt; &lt;gen:1&gt;
+             - EntityQuerySpaceImpl(uid=&lt;gen:1&gt;, entity=org.sam.mines.address.model.Address)
+                - SQL table alias mapping - addresses0_
+                - alias suffix - 1_
+                - suffixed key columns - {uuid1_0_1_}
+
+14:08:12.409 [Test worker] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection org.sam.mines.address.model.Town.addresses: select addresses0_.town_uuid as town_uui4_0_0_, addresses0_.uuid as uuid1_0_0_, addresses0_.uuid as uuid1_0_1_, addresses0_.number as number2_0_1_, addresses0_.street as street3_0_1_, addresses0_.town_uuid as town_uui4_0_1_ from Address addresses0_ where addresses0_.town_uuid=?
+14:08:12.409 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4acaa9ca]
+14:08:12.410 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:1&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@612f80ea]
+14:08:12.410 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : addresses
+14:08:12.410 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : addresses
+14:08:12.410 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : firstname
+14:08:12.410 [Test worker] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+14:08:12.410 [Test worker] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+14:08:12.410 [Test worker] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+14:08:12.411 [Test worker] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=org.sam.mines.address.model.Address.targets)
+    - Returns
+       - CollectionReturnImpl(collection=org.sam.mines.address.model.Address.targets, querySpaceUid=&lt;gen:0&gt;, path=[org.sam.mines.address.model.Address.targets])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=org.sam.mines.address.model.Target, querySpaceUid=&lt;gen:1&gt;, path=[org.sam.mines.address.model.Address.targets].&lt;elements&gt;)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=&lt;gen:0&gt;, collection=org.sam.mines.address.model.Address.targets)
+          - SQL table alias mapping - targets0_
+          - alias suffix - 0_
+          - suffixed key columns - {address_1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - uuid1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : &lt;gen:0&gt; -&gt; &lt;gen:1&gt;
+             - EntityQuerySpaceImpl(uid=&lt;gen:1&gt;, entity=org.sam.mines.address.model.Target)
+                - SQL table alias mapping - target1_
+                - alias suffix - 1_
+                - suffixed key columns - {uuid1_1_1_}
+
+14:08:12.411 [Test worker] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection org.sam.mines.address.model.Address.targets: select targets0_.address_uuid as address_1_2_0_, targets0_.target_uuid as target_u2_2_0_, target1_.uuid as uuid1_1_1_, target1_.firstname as firstnam2_1_1_, target1_.name as name3_1_1_ from targetaddress targets0_ inner join Target target1_ on targets0_.target_uuid=target1_.uuid where targets0_.address_uuid=?
+14:08:12.509 [Test worker] DEBUG org.hibernate.SQL - create table Address (uuid varchar(255) not null, number integer, street varchar(255), town_uuid varchar(255), primary key (uuid))
+14:08:12.510 [Test worker] DEBUG org.hibernate.SQL - create table Target (uuid varchar(255) not null, firstname varchar(255), name varchar(255), primary key (uuid))
+14:08:12.511 [Test worker] DEBUG org.hibernate.SQL - create table targetaddress (address_uuid varchar(255) not null, target_uuid varchar(255) not null, primary key (address_uuid, target_uuid))
+14:08:12.512 [Test worker] DEBUG org.hibernate.SQL - create table Town (uuid varchar(255) not null, name varchar(255), postcode integer, primary key (uuid))
+14:08:12.512 [Test worker] DEBUG org.hibernate.SQL - alter table Address add constraint FKqok9kq6thk843cj90qpr4o3lt foreign key (town_uuid) references Town
+14:08:12.513 [Test worker] DEBUG org.hibernate.SQL - alter table targetaddress add constraint FKryaj54i54x1jhov3kin0n7thp foreign key (target_uuid) references Target
+14:08:12.515 [Test worker] DEBUG org.hibernate.SQL - alter table targetaddress add constraint FKi7j4qq1k4i0butxc004c3aacf foreign key (address_uuid) references Address
+14:08:12.518 [Test worker] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+14:08:12.519 [Test worker] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+14:08:12.529 [Test worker] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:08:12.529 [Test worker] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:08:12.531 [Test worker] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+14:08:12.531 [Test worker] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+14:08:12.542 [Test worker] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6af56219
+14:08:12.543 [Test worker] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: ef38f4eb-2562-4efe-ab95-4fdc2bf0e67c (&lt;unnamed&gt;)
+14:08:12.543 [Test worker] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+14:08:12.543 [Test worker] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:08:12.546 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+14:08:12.603 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+14:08:12.609 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+14:08:12.617 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'townRepository'
+14:08:12.715 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaMappingContext'
+14:08:12.722 [Test worker] DEBUG org.springframework.data.jpa.repository.config.JpaMetamodelMappingContextFactoryBean - Initializing JpaMetamodelMappingContext…
+14:08:12.739 [Test worker] DEBUG org.springframework.data.jpa.repository.config.JpaMetamodelMappingContextFactoryBean - Finished initializing JpaMetamodelMappingContext!
+14:08:12.815 [Test worker] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+14:08:12.926 [Test worker] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+14:08:12.935 [Test worker] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+14:08:13.220 [Test worker] DEBUG org.springframework.data.repository.core.support.RepositoryFactorySupport - Initializing repository instance for org.sam.mines.address.persistence.TownRepository…
+14:08:13.250 [Test worker] DEBUG org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+14:08:13.332 [Test worker] DEBUG org.springframework.data.repository.core.support.RepositoryFactorySupport - Finished creation of repository instance for org.sam.mines.address.persistence.TownRepository.
+14:08:13.334 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.domain.EntityScanPackages'
+14:08:13.353 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext [924041787] in cache under key [[MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:08:13.354 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@4f738850 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+14:08:13.380 [Test worker] DEBUG org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener - Processing [MergedSqlConfig@738a5eff dataSource = '', transactionManager = '', transactionMode = INFERRED, encoding = '', separator = ';', commentPrefixes = array&lt;String&gt;['--'], blockCommentStartDelimiter = '/*', blockCommentEndDelimiter = '*/', errorMode = FAIL_ON_ERROR] for execution phase [BEFORE_TEST_METHOD] and test context [DefaultTestContext@88848ee testClass = TownRepositoryTest, testInstance = org.sam.mines.address.persistence.TownRepositoryTest@93f362c, testMethod = shouldFindAll@TownRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]].
+14:08:13.382 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [924041787] from cache with key [[MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:08:13.382 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@4f738850 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+14:08:13.384 [Test worker] DEBUG org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener - Executing SQL scripts: [class path resource [data/clear.sql], class path resource [data/town.sql]]
+14:08:13.386 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [924041787] from cache with key [[MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:08:13.386 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@4f738850 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+14:08:13.387 [Test worker] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [924041787] from cache with key [[MergedContextConfiguration@95aa4a4 testClass = TownRepositoryTest, locations = '{}', classes = '{class org.sam.mines.address.persistence.config.PersistenceTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3409bb78, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19217ce8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@79e311dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:08:13.387 [Test worker] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@4f738850 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+14:08:13.393 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.sam.mines.address.persistence.TownRepositoryTest.shouldFindAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+14:08:13.393 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1866426546&lt;open&gt;)] for JPA transaction
+14:08:13.399 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+14:08:13.399 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - begin
+14:08:13.402 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@63b98a59]
+14:08:13.409 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executing SQL script from class path resource [data/clear.sql]
+14:08:13.432 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 1 returned as update count for SQL: truncate table targetaddress
+14:08:13.432 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - SQLWarning ignored: SQL state '02000', error code '-1100', message [no data]
+14:08:13.433 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 1 returned as update count for SQL: truncate table town
+14:08:13.433 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - SQLWarning ignored: SQL state '02000', error code '-1100', message [no data]
+14:08:13.433 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 1 returned as update count for SQL: truncate table address
+14:08:13.433 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - SQLWarning ignored: SQL state '02000', error code '-1100', message [no data]
+14:08:13.434 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 1 returned as update count for SQL: truncate table target
+14:08:13.434 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - SQLWarning ignored: SQL state '02000', error code '-1100', message [no data]
+14:08:13.434 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executed SQL script from class path resource [data/clear.sql] in 25 ms.
+14:08:13.434 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executing SQL script from class path resource [data/town.sql]
+14:08:13.436 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 1 returned as update count for SQL: insert into town(uuid, postcode, name) VALUES ('fb74d086-5a4a-11e7-907b-a6006ad3dba0', '34000', 'Montpellier')
+14:08:13.436 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executed SQL script from class path resource [data/town.sql] in 2 ms.
+14:08:13.436 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+14:08:13.436 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1866426546&lt;open&gt;)]
+14:08:13.436 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
+14:08:13.437 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1866426546&lt;open&gt;)] after transaction
+14:08:13.438 [Test worker] DEBUG org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning
+java.sql.SQLWarning: no data
+	at org.hsqldb.jdbc.JDBCUtil.sqlWarning(Unknown Source)
+	at org.hsqldb.jdbc.JDBCStatementBase.performPostExecute(Unknown Source)
+	at org.hsqldb.jdbc.JDBCStatement.fetchResult(Unknown Source)
+	at org.hsqldb.jdbc.JDBCStatement.execute(Unknown Source)
+	at org.apache.commons.dbcp2.DelegatingStatement.execute(DelegatingStatement.java:194)
+	at org.apache.commons.dbcp2.DelegatingStatement.execute(DelegatingStatement.java:194)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:605)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.execute(ResourceDatabasePopulator.java:269)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.lambda$executeSqlScripts$4(SqlScriptsTestExecutionListener.java:263)
+	at org.springframework.transaction.support.TransactionOperations.lambda$executeWithoutResult$0(TransactionOperations.java:68)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.transaction.support.TransactionOperations.executeWithoutResult(TransactionOperations.java:67)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.executeSqlScripts(SqlScriptsTestExecutionListener.java:263)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.lambda$executeSqlScripts$0(SqlScriptsTestExecutionListener.java:185)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.executeSqlScripts(SqlScriptsTestExecutionListener.java:185)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.executeSqlScripts(SqlScriptsTestExecutionListener.java:147)
+	at org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener.beforeTestMethod(SqlScriptsTestExecutionListener.java:117)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:289)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.beforeEach(SpringExtension.java:108)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachCallbacks$1(TestMethodTestDescriptor.java:151)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$5(TestMethodTestDescriptor.java:187)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:187)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachCallbacks(TestMethodTestDescriptor.java:150)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:129)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:08:13.438 [Test worker] WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: -1100, SQLState: 02000
+14:08:13.439 [Test worker] WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - no data
+14:08:13.470 [Test worker] DEBUG org.springframework.data.repository.core.support.TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+14:08:13.473 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+14:08:13.473 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(669688789&lt;open&gt;)] for JPA transaction
+14:08:13.474 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [1003109803, URL=jdbc:hsqldb:mem:mytestdb;sql.syntax_pgs=true, UserName=SA, HSQL Database Engine Driver] read-only
+14:08:13.474 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+14:08:13.474 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - begin
+14:08:13.474 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@534acdda]
+14:08:13.514 [Test worker] DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl - Rendered criteria query -&gt; select generatedAlias0 from Town as generatedAlias0
+14:08:13.553 [Test worker] DEBUG org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@bfb7c8f
+14:08:13.603 [Test worker] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from org.sam.mines.address.model.Town as generatedAlias0
+14:08:13.611 [Test worker] DEBUG org.hibernate.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+14:08:13.620 [Test worker] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  |  +-[IDENT] Node: 'org'
+       |     |  |  |  |  |  \-[IDENT] Node: 'sam'
+       |     |  |  |  |  \-[IDENT] Node: 'mines'
+       |     |  |  |  \-[IDENT] Node: 'address'
+       |     |  |  \-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Town'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+14:08:13.690 [Test worker] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select &lt;&lt; begin [level=1, statement=select]
+14:08:13.718 [Test worker] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : org.sam.mines.address.model.Town (generatedAlias0) -&gt; town0_
+14:08:13.720 [Test worker] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -&gt; town0_.uuid
+14:08:13.722 [Test worker] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+14:08:13.722 [Test worker] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} town0_.uuid ) ( FromClause{level=1} Town town0_ ) )
+14:08:13.732 [Test worker] DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Town): [Town]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(org.sam.mines.address.model.Town)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+14:08:13.737 [Test worker] DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor - Using FROM fragment [Town town0_]
+14:08:13.737 [Test worker] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select &gt;&gt; end [level=1, statement=select]
+14:08:13.737 [Test worker] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Town)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'town0_.uuid as uuid1_3_' {alias=generatedAlias0, className=org.sam.mines.address.model.Town, tableAlias=town0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'town0_.name as name2_3_, town0_.postcode as postcode3_3_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[town0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Town town0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Town,tableAlias=town0_,origin=null,columns={,className=org.sam.mines.address.model.Town}}
+
+14:08:13.737 [Test worker] DEBUG org.hibernate.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+14:08:13.751 [Test worker] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from org.sam.mines.address.model.Town as generatedAlias0
+14:08:13.752 [Test worker] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select town0_.uuid as uuid1_3_, town0_.name as name2_3_, town0_.postcode as postcode3_3_ from Town town0_
+14:08:13.752 [Test worker] DEBUG org.hibernate.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+14:08:13.774 [Test worker] DEBUG org.hibernate.SQL - select town0_.uuid as uuid1_3_, town0_.name as name2_3_, town0_.postcode as postcode3_3_ from Town town0_
+14:08:13.784 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+14:08:13.789 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[org.sam.mines.address.model.Town#fb74d086-5a4a-11e7-907b-a6006ad3dba0]
+14:08:13.802 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving attributes for [org.sam.mines.address.model.Town#fb74d086-5a4a-11e7-907b-a6006ad3dba0]
+14:08:13.803 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Processing attribute `addresses` : value = NOT NULL COLLECTION
+14:08:13.803 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Attribute (`addresses`)  - enhanced for lazy-loading? - false
+14:08:13.816 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Montpellier
+14:08:13.816 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+14:08:13.816 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Processing attribute `postcode` : value = 34000
+14:08:13.816 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Attribute (`postcode`)  - enhanced for lazy-loading? - false
+14:08:13.817 [Test worker] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [org.sam.mines.address.model.Town#fb74d086-5a4a-11e7-907b-a6006ad3dba0]
+14:08:13.822 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+14:08:13.822 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(669688789&lt;open&gt;)]
+14:08:13.822 [Test worker] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
+14:08:13.823 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [1003109803, URL=jdbc:hsqldb:mem:mytestdb;sql.syntax_pgs=true, UserName=SA, HSQL Database Engine Driver]
+14:08:13.823 [Test worker] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(669688789&lt;open&gt;)] after transaction
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 9 mars 2020 à 14:08:14</p>
+</div>
+</div>
+</body>
+</html>

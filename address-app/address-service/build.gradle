@@ -1,0 +1,6 @@
+apply from: "${rootDir}/gradle/backend-kotlin.gradle"
+
+dependencies {
+    compile(project(":address-app:address-persistence"))
+
+}

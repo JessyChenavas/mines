@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TownControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TownControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.sam.mines.address.web.controller.html">org.sam.mines.address.web.controller</a> &gt; TownControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.575s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldGetATown()</td>
+<td class="success">0.450s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotGetInstanceData()</td>
+<td class="success">0.125s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:08:25.626 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:08:25.665 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:08:25.746 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.sam.mines.address.web.controller.TownControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+14:08:25.799 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.sam.mines.address.web.controller.TownControllerTest], using SpringBootContextLoader
+14:08:25.811 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.sam.mines.address.web.controller.TownControllerTest]: class path resource [org/sam/mines/address/web/controller/TownControllerTest-context.xml] does not exist
+14:08:25.812 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.sam.mines.address.web.controller.TownControllerTest]: class path resource [org/sam/mines/address/web/controller/TownControllerTestContext.groovy] does not exist
+14:08:25.812 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.sam.mines.address.web.controller.TownControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:08:25.814 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.sam.mines.address.web.controller.TownControllerTest]: TownControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:08:25.961 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.sam.mines.address.web.controller.TownControllerTest]
+14:08:26.187 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\jessy\Desktop\sampleApp\address-app\address-web\build\classes\kotlin\main\org\sam\mines\address\web\AddressApp.class]
+14:08:26.189 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.sam.mines.address.web.AddressApp for test class org.sam.mines.address.web.controller.TownControllerTest
+14:08:26.193 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [org.sam.mines.address.web.controller.TownControllerTest]: using defaults.
+14:08:26.195 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:08:26.246 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@ce9cf7e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@131ad59f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3c2440e6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@47b21e00, org.springframework.test.context.support.DirtiesContextTestExecutionListener@562abb7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@401120a9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5e2c7b3d, org.springframework.test.context.event.EventPublishingTestExecutionListener@9392ce6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19960165, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@504b6e96, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d830231, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2d1d4d7b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a9ec94]
+14:08:26.256 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@650bec5f testClass = TownControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@62a0c795 testClass = TownControllerTest, locations = '{}', classes = '{class org.sam.mines.address.web.AddressApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@3a8618db, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@202be967, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@2883a0f3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@272e2dba, [ImportsContextCustomizer@539da332 key = [org.sam.mines.address.web.config.WebTestConfig, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e35d50c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@13169617, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+14:08:26.547 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-03-09 14:08:27.244  INFO 2860 --- [    Test worker] o.s.m.a.w.controller.TownControllerTest  : Starting TownControllerTest on DESKTOP-R8R5GML with PID 2860 (started by jessy in C:\Users\jessy\Desktop\sampleApp\address-app\address-web)
+2020-03-09 14:08:27.248  INFO 2860 --- [    Test worker] o.s.m.a.w.controller.TownControllerTest  : No active profile set, falling back to default profiles: default
+2020-03-09 14:08:27.283 DEBUG 2860 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ede0a83
+2020-03-09 14:08:27.856  INFO 2860 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-09 14:08:27.985  INFO 2860 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 1 JPA repository interfaces.
+2020-03-09 14:08:29.541  INFO 2860 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 14:08:30.417  INFO 2860 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-09 14:08:30.449 DEBUG 2860 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-09 14:08:30.634 DEBUG 2860 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2020-03-09 14:08:30.716 DEBUG 2860 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-09 14:08:30.743 DEBUG 2860 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-09 14:08:30.871  INFO 2860 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-03-09 14:08:30.872  INFO 2860 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-03-09 14:08:30.906  INFO 2860 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 34 ms
+2020-03-09 14:08:30.970  INFO 2860 --- [    Test worker] o.s.m.a.w.controller.TownControllerTest  : Started TownControllerTest in 4.4 seconds (JVM running for 7.628)
+2020-03-09 14:08:31.087 DEBUG 2860 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [&quot;classpath:/META-INF/resources/&quot;, &quot;classpath:/resources/&quot;, &quot;classpath:/static/&quot;, &quot;classpath:/public/&quot;, &quot;/&quot;]
+2020-03-09 14:08:31.092 DEBUG 2860 --- [    Test worker] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-03-09 14:08:31.162 DEBUG 2860 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.sam.mines.address.web.controller.TownController#get(String)
+2020-03-09 14:08:31.301 DEBUG 2860 --- [    Test worker] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2020-03-09 14:08:31.484 DEBUG 2860 --- [    Test worker] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Town(name=some town, postCode=1, id=8e8074f1-1f4d-4a71-ac42-026fa73d6999)]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 9 mars 2020 à 14:08:31</p>
+</div>
+</div>
+</body>
+</html>

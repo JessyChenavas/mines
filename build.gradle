@@ -1,0 +1,64 @@
+buildscript {
+	apply from: "${rootDir}/gradle/dependencies.gradle"
+
+	repositories {
+		mavenCentral()
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
+		classpath("org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}")
+
+		classpath "org.openapitools:openapi-generator-gradle-plugin:4.2.3"
+	}
+}
+
+plugins {
+	id "org.sonarqube" version "2.7"
+}
+
+project.version = '0.0.1-SNAPSHOT'
+project.group 'org.sam'
+
+apply plugin: 'java-library'
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_11
+	targetCompatibility = JavaVersion.VERSION_11
+}
+
+task generateSampleApp(type: Tar) {
+	dependsOn 'build'
+	from("${projectDir}") {
+		include "address-app/**/"
+		exclude "address-app/**/out"
+		exclude "address-app/**/build"
+
+		include "address-client/**/"
+		exclude "address-client/node_modules"
+		exclude "address-client/dist"
+		exclude "address-client/e2e"
+		exclude "address-client/.gradle"
+
+		include "build.gradle"
+		include "settings.gradle"
+		include "docker-compose.yml"
+		include "gradle.properties"
+		include "gradle/"
+		include "docker/"
+	}
+
+//
+//	from("${projectDir}/gradle"){
+//		include "settingsSampleApp.gradle"
+//		rename "settingsSampleApp.gradle", "settings.gradle"
+//	}
+
+	into "sampleApp"
+	archiveName "sampleApp.tar"
+}
+
+build.finalizedBy(generateSampleApp)

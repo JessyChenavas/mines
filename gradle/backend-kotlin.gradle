@@ -1,0 +1,32 @@
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-spring'
+apply from: "${rootDir}/gradle/backend-java.gradle"
+apply from: "${rootDir}/gradle/dependencies.gradle"
+
+compileKotlin {
+    kotlinOptions {
+        freeCompilerArgs = ["-Xjsr305=strict"]
+        jvmTarget = "11"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        freeCompilerArgs = ["-Xjsr305=strict"]
+        jvmTarget = "11"
+    }
+}
+
+
+dependencies {
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin/'
+    test.java.srcDirs += 'src/test/kotlin/'
+}
+

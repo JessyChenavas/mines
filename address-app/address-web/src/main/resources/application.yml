@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: address
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mines
+    password: mines
+    username: mines
+
+logging:
+  level:
+    org:
+     springframework:
+       web: DEBUG

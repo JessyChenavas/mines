@@ -1,0 +1,13 @@
+apply from: "${rootDir}/gradle/backend-kotlin.gradle"
+
+dependencies{
+    compile(project(":address-app:address-model"))
+
+    compile "org.springframework.data:spring-data-jpa:${springBootVersion}"
+    compile "org.postgresql:postgresql:${postgresVersion}"
+
+    compile "org.flywaydb:flyway-core:${flywayVersion}"
+
+    testCompile "org.hsqldb:hsqldb:${hsqldbVersion}"
+    testCompile "org.apache.commons:commons-dbcp2:${commonDbcpVersion}"
+}

@@ -1,0 +1,50 @@
+apply from: "${rootDir}/gradle/dependencies.gradle"
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'java-library'
+apply plugin: 'jacoco'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.springframework.boot:spring-boot-starter-test:${springBootVersion}") {
+        exclude group: "org.junit.vintage", module: "junit-vintage-engine"
+    }
+
+    testCompile "org.mockito:mockito-core:${mockitoVersion}"
+    testCompile "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
+}
+
+test {
+    useJUnitPlatform {
+        includeEngines 'junit-jupiter'
+    }
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+
+jacoco {
+    toolVersion = '0.8.5'
+}
+
+jacocoTestReport {
+    reports {
+        html.enabled true
+        xml.enabled true
+        xml.destination file("${buildDir}/reports/jacoco/report.xml")
+    }
+}
+
+
+sonarqube {
+
+    properties {
+        property "sonar.java.coveragePlugin", "jacoco"
+        property "sonar.coverage.jacoco.xmlReportPaths", "./build/reports/jacoco/report.xml"
+    }
+
+}

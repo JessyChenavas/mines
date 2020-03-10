@@ -1,0 +1,1 @@
+insert into town(uuid, postcode, name) VALUES ('fb74d086-5a4a-11e7-907b-a6006ad3dba0', '34000', 'Montpellier');

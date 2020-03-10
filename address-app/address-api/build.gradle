@@ -1,0 +1,42 @@
+
+repositories {
+    mavenCentral()
+}
+
+apply from: "${rootDir}/gradle/backend-kotlin.gradle"
+apply plugin: 'org.openapi.generator'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'java-library'
+
+dependencies {
+    implementation("org.springframework:spring-web:${springVersion}")
+    compile("io.springfox:springfox-swagger2:2.9.2")
+    compile("javax.servlet:javax.servlet-api:4.0.1")
+    compile("javax.validation:validation-api:2.0.1.Final")
+    compile("javax.annotation:javax.annotation-api:1.3.2")
+}
+
+openApiGenerate {
+    generatorName = "kotlin-spring"
+//    library = "spring"
+    inputSpec = "${projectDir}/src/main/resources/address.yml"
+    outputDir = "${buildDir}/generated".toString()
+    apiPackage = "org.sam.mines.address.api.controller"
+    modelPackage = "org.sam.mines.address.api.model"
+    configOptions = [
+            interfaceOnly: "true",
+            basePackage: "excluded"
+    ]
+}
+
+task openApiGenerateLast{
+    doLast{
+        delete "${buildDir}/generated/src/main/kotlin/excluded", "${buildDir}/generated/src/main/resources", "${buildDir}/generated/src/main/kotlin/org/sam/mines/address/api/controller/ApiUtil.kt"
+    }
+
+}
+
+tasks.openApiGenerate.finalizedBy openApiGenerateLast
+
+sourceSets.main.java.srcDirs "${buildDir}/generated/src/main/kotlin"
+compileKotlin.dependsOn tasks.openApiGenerate

@@ -1,0 +1,8 @@
+apply from: "${rootDir}/gradle/backend-kotlin.gradle"
+
+dependencies {
+
+
+    compile ("org.hibernate:hibernate-core:${hibernateVersion}")
+    compile ("org.hibernate:hibernate-validator:${hibernateValidatorVersion}")
+}
